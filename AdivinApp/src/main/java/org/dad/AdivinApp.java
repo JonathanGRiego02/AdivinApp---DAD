@@ -17,12 +17,6 @@ import java.util.Random;
 public class AdivinApp extends Application {
 
   // Model
-
-  // Vista
-  private Label enunciadoLabel;
-  private Button comprobarButton;
-  private TextField numeroTextField;
-
   private Random random;
   private int numero_random;
   private int numero_intentos = 0;
@@ -30,6 +24,12 @@ public class AdivinApp extends Application {
   private Alert alertaInfo;
   private Alert alertaError;
   private Alert alertaFormato;
+  // Vista
+  private Label enunciadoLabel;
+  private Button comprobarButton;
+  private TextField numeroTextField;
+
+  
 
 
   @Override
